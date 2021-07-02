@@ -1,175 +1,680 @@
-<!DOCTYPE html>
-<html lang="en">
+* {
+    margin: 0;
+    padding: 0;
+}
 
-<голова>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Сайт студента GeekBrains</title>
-    <ссылка rel="Таблица стилей" href="style.css">
-</head>
-
-<тело>
-
-
-    <div class="container">
-        <div class="wrapper">
-            <div class="toping">
-                <ul class="header">
-                    <div class="glava">
-                        <li><a id="top" href="Glav.html"><img src="img/Navigation.svg" alt=""></a></li>
-                    </div>
-                    <div class="kont">
-                        <li><a href="contacti.html"><img src="img/Vector.svg" alt=""></a></li>
-                    </div>
-
-                </ul>
-                <div class="container">
-                    <div class="top">
-                        <div class="container top__box"></div>
-                        <div class="top__info">
-                            <h1 class="top__heading">Всем привет я ученик GeekBrains</h1>
-                            <p class="texttop__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum eius
- reiciendis qui ducimus asperiores dolore
- fugiat molestias, error incidunt debitis quidem magnam quibusdam. Nulla maxime totam eos
- porro, quos temporibus!
-                            </p>
-                            <center>><a href="" class="top__button">>Смотрите Наш проект</a>></center>
-                        </div>
-                    </div>
+body {
+    font-family: sans-serif;
+    
+    
+}
 
 
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
 
-                    <div class="what-we-do container">
-                        <h1 class="heading">>Что мы делаем, чтобы помочь нашему клиенту расти в цифровую эпоху</h1>
-                        <div class="card-box">
-                            <div class="perv">
-                                <center><img src="img/kart1.svg" alt=""></center>
-                                <h4>> Сделайте свой бизнес</h4>
-                                <div class="vtor">
-                                    <p>Lorem ipsum dolor sit amet consectetur.</p>
-                                </div>
-                                <a class="card__link" href="#">>Подробнее <div class="stret">><img src="img/strela.svg"
-                                            alt=""></div>
+}
 
-                                </a>
-
-                            </div>
-                            <div class="perv">
-                                <div class="soed">
-                                    <center><img src="img/kart2.svg" alt=""></center>
-                                </div>
-                                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, aliquid.</h4>
-                                <div class="vtor">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi.</p>
-                                </div>
-                                <a class="card__link" href="#">>Подробнее <div class="stret">><img src="img/strela.svg"
-                                            alt=""></div>
-                                </a>
-                            </div>
-                            <div class="perv">
-                                <div class="soedini">
-                                    <center><img src="img/kart4.svg" alt=""></center>
-                                </div>
-                                <h4>Lorem, ipsum dolor.</h4>
-                                <div class="vtor">
-                                    <p>Lorem ipsum dolor sit amet consectetur.</p>
-                                </div>
-                                <a class="card__link" href="#">>Подробнее <div class="stret">><img src="img/strela.svg"
-                                            alt=""></div>
-                                </a>
-                            </div>
-                        </div>
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 
 
-                    </div>
+.toping {
+       flex-grow: 1;
+}
 
-                   <div class="dramardini">
-                        <div class="izobrad1">
-                            <p class="ven">>Установка умного дома</p>
-                        </div>
 
-                        <div class="big_zobrad">
-                            <div class="sandir">
-                                <p class="vezde">>Приложение Sparklite</p>
-                            </div>
-                            <div class="sandir2">
-                                <p class="vozda">>Приложение Car-Rapetition</p>
-                            </div>
-                        </div>
-                   </div>
+.top {
+    min-height: 768px;
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
 
-                    <div class="project ">
-                        <h3 class="heading"><i>Как вам сайт?</i></h3>
-                        <p class="text-text_project">Меня зовут Щенёв Илья это мой первый сайт в его создании мне
- помог<a href= "https://geekbrains.ru" target="new">> GeekBrains</a>
-                        </p>
-                    </div>
+}
 
 
 
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-top: 42px;
+}
 
-                </div>
-            </div>
+.top__info {
+    padding-top: 115px;
+    flex-grow: 1;
+    background-image: url(png/illustration.png );
+    background-repeat: no-repeat;
+    background-position: right center;
+    min-height: 30vh;
+    background-size: 44%;
 
-
-            <div class="footer">
-                <div class="footer__top">
-                    <div class="footer__text">
-                        <h3 class="headingi">Добрый день</h3><br>
-                        <p class="ramablya">Lorem ipsum dolor sit amet consectetur adipisicing.</p><br>
-                        <p class="text">Меня зовут Щенёв Илья это мой первый сайт в его создании мне помог<a
-                                href="https://geekbrains.ru"> GeekBrains</a>
-                        </p><br>
-                    </div>
-                </div>
-                <div class="footer__botton">
-                    <ul class="footer__info">
-
-                        <div class="nomeracia">
-                            <p>1.</p>
-                        </div>
-                        <p class="xyinya">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae odio totam
- sunt.</p>
-                        <div class="nomeracia2">
-                            <p>2.</p>
-                        </div>
-                        <div class="bliz">
- Введите ваш номер телефона <input type="telephone" placeholder="89123456789">
-                        </div>
-                        <div class="nomeracia3">
-                            <p>3.</p>
-                        </div>
-                        <div class="близится">
- Введите вашу почту <input type="email" placeholder="pochta@mail.ru">
-                        </div>
-
-                    </ul>
+}
 
 
-                    <hr>
+.top__heading {
+     width: 510px;
+     font-size: 64px;
+     font-weight: 300;
+     color: #1f3f68;
+     line-height: 74px;
+     letter-spacing: 0.04em;
+     margin-bottom: 32px;
+}
 
-                    <div class="footer__copy">
-                        <div class="polosa">
+.texttop__text {
+    width: 425px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    opacity: 0.6;
+}
 
-                        </div>
-                        <div class="copir">
- Copyright &copyright; Илья Шенев
-                        </div>
-                    </div>
-                </div>
+.top__button{
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    padding: 15px 50px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 71px;
+}
 
-            </div>
+.card__box {
+    border: 3px solid white(208, 25, 190, 1);
+    
+}
+
+.heading {
+    
+
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.what-we-do {
+    padding-top: 64px;
+}
+
+.card-box {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 64px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+    letter-spacing: 0.05em;
+
+    /* Blue_01 */
+
+    color: #1F3F68;
+
+    padding-bottom: 64px;
+    
+   
+}
+.vtor {
+    
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    letter-spacing: 0.05em;
+
+    /* Blue_01 */
+
+    color: #1F3F68;
+
+}
+
+.perv {
+    
+    justify-content: space-between;
+    width: 359px;
+    height: 480px;
+    left: 113px;
+    top: 937px;
+
+    border: 3px solid white;
+    box-sizing: border-box;
+    margin-bottom: 14px;
+
+    width: 350px;
+    padding: 44px 32px;
+    background: #FFFFFF;
+    /* shadow1 */
+
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+
+}
+
+.card__link {
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    text-decoration:none ;
+}
+
+.project {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    /* identical to box height, or 128% */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+    margin-bottom: 64px;
+}
+
+
+
+.footer {
+    box-sizing: border-box;
+    background: #316099;
+    
+    }
+
+.polosa {
+    
+}
+
+
+.headingi {
+    margin-left: 113px;
+    font-size: 36px;
+    line-height: 46px;
+    /* or 128% */
+
+    letter-spacing: 0.05em;
+
+    /* white */
+
+    color: #FFFFFF;
+    left: 32px;
+   
+
+}
+
+.text {
+    font-size: 16px;
+    line-height: 26px;
+    margin-left: 113px;
+    /* or 162% */
+
+    letter-spacing: 0.05em;
+
+    /* white */
+
+    color: #FFFFFF;
+
+    opacity: 0.6;
+}
+
+.ramablya {
+    float: right;
+    margin-right: 114px;
+    box-sizing: border-box;
+    width: 236.63px;
+    height: 56px;
+    background: #5A98D0;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #FFFFFF;
+    margin-bottom: 215px;
+}
+
+
+.footer__info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 96px;
+}
+
+.nomeracia {
+    margin-left: 113px;
+}
+
+.xyinya {
+    margin-left: 19px;
+}
+
+.nomeracia2 {
+    margin-left: 32px;
+}
+
+.bliz {
+    margin-left: 19px;
+}
+
+.nomeracia3 {
+    margin-left: 32px;
+}
+
+.blizitsya {
+    margin-left: 19px;
+}
+
+.copir {
+    margin-left: 113px;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    letter-spacing: 0.05em;
+
+    /* white */
+
+    color: #FFFFFF;
+
+    opacity: 0.4;
+}
+
+
+.nadpis1 {
+
+}
+
+hr {
+    position:absolute;
+    color: white;
+}
+
+.izobrad1 {
+    background-image:url(png/pic1.png);
+    width: 1140px;
+    height: 480px;
+    font-size: 32px;
+    line-height: 46px;
+    /* or 144% */
+
+    text-align: right;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.ven {
+    margin-right: 64px;
+    
+}
+
+.big_zobrad {
+    justify-content:space-between;
+    margin-bottom: 32px;
+    box-sizing: border-box;
+    width: 1140px;
+    height: 417px;
+    background-color:  white;
+
+}
+
+.sandir {
+    float: left;
+    background-image: url(png/Mask\ Group.png);
+    width: 554px;
+    height: 417px;
+}
+
+.sandir2 {
+    float: right;
+    background-image: url(png/33.png);
+    width: 554px;
+    height: 417px;
+    
+}
+
+.vezde {
+    margin-left: 32px;
+    margin-bottom: 32px;
+    font-size: 28px;
+    line-height: 46px;
+    /* identical to box height, or 164% */
+
+    letter-spacing: 0.05em;
+
+    /* white */
+
+    color: #FFFFFF;
+
+}
+
+.vozda {
+    margin-left: 32px;
+    margin-bottom: 32px;
+    font-size: 28px;
+    line-height: 46px;
+    /* identical to box height, or 164% */
+
+    letter-spacing: 0.05em;
+
+    /* white */
+
+    color: #FFFFFF;
+}
+
+
+@media (max-width: 1440px; min-width: 980px) {
+    .container {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .top__info {
+        background-position: right 280px;
+    }
+
+    .big_zobrad {
+        max-width: 900px;
+        display: flex;
+    }
+
+    .izobrad1 {
+        max-width: 900px;
+    }
+
+    .sandir {
+        max-width: 450px;
+    }
+
+    .sandir2 {
+        max-width: 440px;
+        margin-left: 32px;
+    }
+
+
+}
+
+@media (max-width: 657px) {
+    .header {
+        padding-top: 24px;
+    }
+
+    .top {
+        min-height: 376px;
+        padding-bottom: 41px;
+        box-sizing: border-box;
+    }
+
+    .top__info {
+        background-position: right 280px;
+        
+    }
+
+    .top__info {
+        padding-top: 36px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: none;
+    }
+
+    .top__heading {
+        width: 50vh;
+        font-size: 32px;
+        line-height: 32px;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+
+    .texttop__text {
+        width: 50vh;
+        text-align: center;
+    }
+
+    .top__button {
+        font-size: 12px;
+        line-height: 26px;
+        padding: 4px 8px;
+        text-align: center;
+        
+    }
+
+    .card-box {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .izobrad1 {
+        max-width: 60vh;
+    }
+
+    .big_zobrad {
+        flex-direction: column;
+        max-width: 80vh;
+    }
+
+    .sandir2 {
+        margin left: 32px;
+        margin-bottom: 0px;
+        max-width: 80vh;
+    }
+    
+
+    .sandir {
+        max-width: 80vh;
+    }
+
+    .toping {
+        flex-grow: 1;
+    }
+
+    .footer__info {
+        text-align: center;
+        flex-direction: column;
+    }
+
+}
+
+
+.heading-contacts {
+    font-size: 44px;
+    line-height: 74px;
+    /* identical to box height, or 168% */
+
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #FFFFFF;
+}
+
+.contacts-header {
+    background-image: url(png/111.png);
+    margin-bottom: 32px;
+}
+
+.contacts-info {
+    width: 301px;
+    height: 668px;
+    box-sizing: border-box;
+    background-color: white;
+    margin-left: 32px;
+    
+}
+
+.moda {
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: 0.04em;
+
+    /* Blue_01 */
+
+    color: #1F3F68;
+    margin-bottom: 24px;
+}
+
+.textit {
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    letter-spacing: 0.04em;
+
+    /* Blue_01 */
+
+    color: #1F3F68;
+
+    opacity: 0.6;
+
+}
+
+.paris {
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: 0.04em;
+
+    /* Blue_01 */
+
+    color: #1F3F68;
+    margin-bottom: 28px;
+
+}
+
+.lyyft {
+    margin-left: 18px;
+}
+
+.netydasinki {
+    justify-content: space-between;
+    
+}
+
+.longggg {
+    margin-bottom: 42px;
+}
+
+.heding-mini {
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: 0.04em;
+
+    /* Blue_01 */
+
+    color: #1F3F68;
+    margin-bottom: 24px;
+}
+
+.ebnulsya {
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    letter-spacing: 0.05em;
+
+    /* Blue_01 */
+
+    color: #1F3F68;
+}
+
+.cpacibo {
+    width: 1140px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    justify-content: space-between;
+
+}
+
+.heading-mini {
+   
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: 0.04em;
+
+    /* Blue_01 */
+
+    color: #1F3F68;
+    margin-bottom: 48px;
+
+}
 
 
 
 
 
+.form {
+    width: 540px;
+    height: 800px;
+    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
 
+}
 
-        </div>
-    </div>
+.contacts-info {
+    width: 540px;
+    height: 800px;
+}
 
-</body>
+.makar {
+    opacity: 0.4;
+    /* blue_03 */
 
-</html>
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 96px;
+}
+
+.submit {
+    /* blue_04 */
+    margin-left: 2px;
+    background: #5A98D0;
+    /* shadow1 */
+    width: 428px;
+    height: 42px;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #FFFFFF;
+}
